@@ -1,0 +1,10 @@
+18:30:02 **** Rebuild of configuration Debug for project TP_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Input.o" "..\\src\\Input.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayEmployees.o" "..\\src\\ArrayEmployees.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_2.o" "..\\src\\TP_2.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\output.o" "..\\src\\output.c" 
+gcc -o TP_2.exe "src\\ArrayEmployees.o" "src\\Input.o" "src\\TP_2.o" "src\\output.o" 
+
+18:30:03 Build Finished. 0 errors, 0 warnings. (took 985ms)
+
